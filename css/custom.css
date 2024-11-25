@@ -15,3 +15,28 @@ body::before {
   border-bottom: 2px solid black;
   content: "Error: Can't find stylesheet to import.\a    \2577 \a 15 \2502  @import \".../node_modules/bootstrap/scss/bootstrap\";\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/custom.scss 15:9  root stylesheet";
 }
+
+#hero {
+  background-image: url(../images/cakes-hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero .d-flex {
+  height: 70vh;
+}
+
+.display-1 {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
+.btn {
+  background-color:#B5485D;
+  color: white;
+  border:#B5485D;
+}
