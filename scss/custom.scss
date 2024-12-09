@@ -2,16 +2,53 @@
 // This is the file you will want to update to customize your page. 
 
 // Import Google fonts here
+@import url(https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Katibeh&family=Libre+Baskerville&family=Parisienne&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Katibeh&family=Libre+Baskerville&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
 
 //Include any default variable overrides here (colors, font sizes, font family, etc...)
+$primary: #B5485D; 
+$light: #f2f2f2;
+$dark: #f5f5f5;
+
+$body-bg:#ffff;
 
 // Adjust nav link hover colour here
+$navbar-light-color: #EFD1D4;
+$navbar-light-hover-color: gray;
+$navbar-light-active-color: #B5485D;
+
+
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+
+$headings-font-family: "Parisienne", serif;
 
 
 
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.500rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Custom css down below
+#hero {
+    background-image: url(../images/cakes-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+}
+
+.hero-section {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+  }
